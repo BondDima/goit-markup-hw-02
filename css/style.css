@@ -1,0 +1,160 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+    text-decoration: none;
+}
+
+.logo-header {
+    color: #000000;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+/* -----------HEADER----------- */
+
+.header {
+    background-color: #fff;
+    border-bottom: 1px solid #ECECEC;
+}
+
+header nav {
+    display: inline-block;
+}
+
+.nav-list li {
+    display: inline-block;
+}
+
+.nav-item a:active {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.nav-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #2196F3;
+}
+
+.header-tel {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16/14);
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+.header-mail {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16/14);
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+.header-mail:hover,
+.header-mail:focus {
+    color: #2196F3;
+}
+
+/* -----------HERO----------- */
+
+button {
+    background: #F5F4FA;
+}
+
+.portfolio-list li {
+    display: inline-block;
+}
+
+.portfolio-items {
+    list-style-type: none;
+}
+
+/*.portfolio-card img{
+    width: 370px;
+}*/
+.portfolio-card {
+    width: 370px;
+    margin: 30px;
+    border: 1px solid #EEEEEE;
+    display: inline-block;
+}
+
+.portfolio-card h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+.portfolio-card p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.portfolio-card .txt {
+    padding: 20px 24px;
+}
+
+/* -----------FOOTER----------- */
+footer {
+    background-color: #2F303A;
+    padding: 60px 215px;
+}
+
+footer .contacts a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+
+footer .contacts a.wht {
+    color: #ffffff;
+}
+
+.logo .logo-header.wht {
+    color: white;
+}
+
+footer .contacts {
+    list-style-type: none;
+    padding-left: 0%;
+}
