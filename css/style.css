@@ -16,7 +16,7 @@ body {
     font-family: "Roboto", sans-serif;
 }
 ul {
-    list-style-type: none;
+    list-style: none;
 }
 
 .logo {
@@ -36,9 +36,6 @@ ul {
 
 /* -----------HEADER----------- */
 
-.header a {
-    text-decoration: none;
-}
 
 .page-header {
     font-weight: 500;
@@ -52,24 +49,30 @@ ul {
 }
 
 .nav-link:hover,
-.nav-link:focus 
-.nav-link:active {
+.nav-link:focus {
     color: var(--accent);
 }
 
-.nav-list .nav-item.current {
-    color: var(--accent);
-}
-
-.contacts-list .link {
+.link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
     color: var(--text-lightgrey-color);
+    text-decoration: none;
+    
 }
 
-.contacts-list .link:hover,
-.contacts-list .link:focus,
-.contacts-list .link:active{
+.link:hover,
+.link:focus {
     color: var(--accent);
 }
+
+.contacts-list li{
+    list-style: none;
+}
+
 
 /* -----------HERO----------- */
 
@@ -87,7 +90,7 @@ ul {
     color: var(--text-white-color);
 }
 
-.hero-button {
+.button{
     font-family: inherit;
     font-weight: 700;
     font-size: 16px;
@@ -169,9 +172,10 @@ footer {
 }
 
 footer .contacts a {
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 2;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
@@ -222,6 +226,21 @@ footer .contacts {
 }
 
 .txt {
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.03em;
+    color: var(--text-lightgrey-color);
+}
+
+.port-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--text-grey-color);
+}
+
+.port-text {
     font-size: 16px;
     line-height: 1.875;
     letter-spacing: 0.03em;
